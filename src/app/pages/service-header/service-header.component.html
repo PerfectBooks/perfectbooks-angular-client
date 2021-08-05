@@ -1,0 +1,64 @@
+<main id="main">
+  <section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2>{{serviceHeader.shortTitle}}</h2>
+        <ol>
+          <li><a routerLink="/home">Home</a></li>
+          <li>{{serviceHeader.title}}</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+</main>
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="row mt-5 justify-content-left" data-aos="fade-up">
+      <div class="col-lg-7">
+        <div class="content d-flex flex-column justify-content-center">
+          <h3 data-aos="fade-up">{{serviceHeader.descriptionTitle}}</h3>
+          <p data-aos="fade-up">
+            {{serviceHeader.description}}
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-5">
+
+
+        <form  role="form" action="form.php" method ="POST" enctype="multipart/form-data" class="php-email-form" >
+          <div class="form-row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name"  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="text" class="form-control" name="lname" id="lname" placeholder="Last Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="text" name="phone" class="form-control" id="phone" placeholder=" Phone" data-rule="minlen:4" data-msg="Please enter valid Phone No." />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validate"></div>
+            </div>
+          </div>
+
+
+          <div class="form-row">
+            <div class="col-md-6">
+
+              ₹ {{serviceHeader.price}} <small>All Inclusive</small>
+            </div>
+            <div class="col-md-6 form-group">
+              <div class="text-center "><input  class="formsubmit" type="submit" name="submit" value="Submit" /></div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>

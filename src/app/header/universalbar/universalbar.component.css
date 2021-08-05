@@ -1,0 +1,38 @@
+#universal-bar {
+  background: #f8f6f5;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+#universal-bar .contact-info a {
+  line-height: 1;
+  color: #4d4643;
+  transition: 0.3s;
+}
+
+#universal-bar .contact-info a:hover {
+  color: #f03c02;
+}
+
+#universal-bar .contact-info i {
+  color: #f03c02;
+  padding: 4px;
+}
+
+#universal-bar .contact-info .icofont-phone {
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #e9e9e9;
+}
+
+#universal-bar .social-links a {
+  color: #836a61;
+  padding: 4px 0 4px 20px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#universal-bar .social-links a:hover {
+  color: #f03c02;
+}
