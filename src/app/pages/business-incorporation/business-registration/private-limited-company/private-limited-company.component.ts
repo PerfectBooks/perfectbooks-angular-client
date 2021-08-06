@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Header} from '../../../../constants/private-limited-company-registration.constant';
+import {Header} from './private-limited-company.constant';
 
 @Component({
   selector: 'app-private-limited-company',
