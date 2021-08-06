@@ -1,275 +1,426 @@
 <div class="container">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-              aria-expanded="false" aria-label="Toggle navigation">
-        <span class="">PB<i class="bi bi-list"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="main_nav">
-        <ul class="navbar-nav">
 
-          <li class="nav-item dropdown has-megamenu">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Starting a New Business</a>
-            <div class="dropdown-menu megamenu" role="menu">
-              <div class="row g-3">
-                <div class="col-lg-6 col-6">
-                  <div class="col-megamenu">
-                    <ul class="list-unstyled">
-                      <li><a routerLink="plcr">Private Limited Company Registration</a>
-                      </li>
-                      <li><a routerLink="llp">Limited Liability Partnership
-                        Registration </a></li>
-                      <li><a href="one-person-company-registration.php">One Person Company Registration</a></li>
-                      <li><a href="partnership-firm-registration-india.php">Partnership Firm Registration</a></li>
-                      <li><a href="register-sole-proprietorship-firm-in-india">Sole Proprietorship Firm Registration</a>
-                      </li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
-                <div class="col-lg-6 col-6">
-                  <div class="col-megamenu">
+<!-- ============= COMPONENT ============== -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container-fluid">
+	<!--<a class="navbar-brand" href="#">PB</a>-->
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="">PB<i class="bi bi-list"></i></span>
+	</button>
+	<div class="collapse navbar-collapse" id="main_nav">
+		<ul class="navbar-nav">
 
-                    <ul class="list-unstyled">
-                      <li><a href="subsidiary-registration-in-india.php">Register an Indian Subsidiary</a></li>
-                      <li><a href="section-8-company-registration.php">Section 8 Company Registration</a></li>
-                      <li><a href="producer-company-registration.php">Producer Company Registration</a></li>
-                      <li><a href="#">Nidhi Company </a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
-
-              </div><!-- end row -->
-            </div> <!-- dropdown-mega-menu.// -->
-          </li>
+			<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Bussiness Incorporation</a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-6 col-6">
+							<div class="col-megamenu">
+							<h6 class="title"><strong>Business Registration</strong></h6>
+								<ul class="list-unstyled">
+									  <li><a routerLink="/plc">Private Limited Company </a></li>
+									  <li><a routerLink="/llp">Limited Liability Partnership  </a></li>
+									  <li><a href="one-person-company-registration.php">One Person Company </a></li>
+									  <li><a href="partnership-firm-registration-india.php">Partnership Firm </a></li>
+									  <li><a href="register-sole-proprietorship-firm-in-india">Sole Proprietorship Firm </a></li>
+									    <!--<li><a href="subsidiary-registration-in-india.php">Register an Indian Subsidiary</a></li>-->
+								  <li><a href="section-8-company-registration.php">Section 8 Company Registration</a></li>
+								  <li><a href="producer-company-registration.php">Producer Company Registration</a></li>
+								  <li><a href="#">Nidhi Company </a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
 
 
-          <!-- Menu Intelectual Property Start -->
-
-          <li class="nav-item dropdown has-megamenu">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Intellectual Property</a>
-            <div class="dropdown-menu megamenu" role="menu">
-              <div class="row g-3">
-                <div class="col-lg-4 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Trademark</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="trademark-registration.php">Trademark Registration</a></li>
-                      <li><a href="trademark-objection-reply.php">Trademark Objection Reply </a></li>
-                      <li><a href="trademark-opposition-india.php">Trademark Opposition</a></li>
-                      <li><a href="trademark-assignment.php">Trademark Assignment</a></li>
-                      <li><a href="trademark-renewal-online.php">Trademark Renewal</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
-                <div class="col-lg-4 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Patent</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="online-patent-search-in-india.php">Patent Search</a></li>
-                      <li><a href="filing-a-provisional-patent.php">Provisional Patent</a></li>
-                      <li><a href="file-permanent-patent-online.php">Permanent Patent</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
-                <div class="col-lg-4 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Copyright</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="copyright-registration-in-india.php">Copyright Registration</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div>
-
-              </div><!-- end row -->
-            </div> <!-- dropdown-mega-menu.// -->
-
-          </li><!-- Menu Intelectual Property End -->
-
-          <!-- Menu Change In business Start -->
-
-          <li class="nav-item dropdown has-megamenu">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Change in Business</a>
-            <div class="dropdown-menu megamenu" role="menu">
-              <div class="row g-3">
-                <div class="col-lg-4 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Select Conversion Type</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Proprietorship to Partnership</a></li>
-                      <li><a href="#">Proprietorship to LLP </a></li>
-                      <li><a href="#">Proprietorship to Private Limited Company</a></li>
-                      <li><a href="#">Proprietorship to OPC</a></li>
-                      <li><a href="#">Partnership to LLP</a></li>
-                      <li><a href="#">Partnership to Private Limited Company</a></li>
-                      <li><a href="#">OPC to Private Limited Company</a></li>
-                      <li><a href="#">Private Limited company to LLP</a></li>
-                      <li><a href="#">Private company to Public company</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
-                <div class="col-lg-4 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Update Corporate Information</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Add or Remove a Director (Company)</a></li>
-                      <li><a href="#">Add or Remove a Partner (LLP)</a></li>
-                      <li><a href="#">Change Business Activity</a></li>
-
-                      <li><a href="#">Change Registered Office</a></li>
-                      <li><a href="#">Change Company Name</a></li>
-                      <li><a href="#">Change LLP Agreement</a></li>
-                      <li><a href="#">Change Partnership Deed</a></li>
-                      <li><a href="#">Increase Authorised Share Capital</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
-                <div class="col-lg-4 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Close a Busines</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Close a Private Limited Company</a></li>
-                      <li><a href="#">Close a Limited Liability Partnership</a></li>
-                      <li><a href="#">Close a One Person Company</a></li>
-                      <li><a href="#">Dissolve a Partnership Firm</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div>
-
-              </div><!-- end row -->
-            </div> <!-- dropdown-mega-menu.// -->
-
-          </li><!-- Change In business  End -->
-
-          <!-- Government Registration -->
+							<div class="col-lg-6 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Bussiness Conversion</strong></h6>
+								<ul class="list-unstyled">
+									 <li><a href="convert-sole-proprietorship-to-partnership.php">Proprietorship to Partnership</a></li>
+									  <li><a href="convert-sole-proprietorship-to-llp.php">Proprietorship to LLP </a></li>
+									  <li><a href="#">Proprietorship to Private Limited Company</a></li>
+									  <li><a href="#">Proprietorship to OPC</a></li>
+									  <li><a href="#">Partnership to LLP</a></li>
+									   <li><a href="#">Partnership to Private Limited Company</a></li>
+									  <li><a href="#">OPC to Private Limited Company</a></li>
+									  <li><a href="#">Private Limited company to LLP</a></li>
+									  <li><a href="#">Private company to Public company</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
 
 
-          <li class="nav-item dropdown has-megamenu">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Government Registration</a>
-            <div class="dropdown-menu megamenu" role="menu">
-              <div class="row g-3">
-                <div class="col-lg-12 col-6">
-                  <div class="col-megamenu">
-
-                    <ul class="list-unstyled">
-                      <li><a class="dropdown-item" href="gst-registration-india.php">GST Registration</a></li>
-                      <li><a class="dropdown-item" href="import-export-code-iec-registration.php">Import Export Code
-                        Registration </a></li>
-                      <li><a class="dropdown-item" href="startup-india-registration.php">Startup India Registration</a>
-                      </li>
-                      <li><a class="dropdown-item" href="#">LUT under GST</a></li>
-                      <li><a class="dropdown-item" href="#">SSI - MSME Registration</a></li>
-                      <li><a class="dropdown-item" href="#">Shop & Establishment Registration</a></li>
-                      <li><a class="dropdown-item" href="#">Professional Tax Registration</a></li>
-                      <li><a class="dropdown-item" href="#">PAN Application</a></li>
-                      <li><a class="dropdown-item" href="#">TAN Application</a></li>
-                      <li><a class="dropdown-item" href="#">FSSAI Registration</a></li>
-                      <li><a class="dropdown-item" href="#">ESI Registration</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
+					</div><!-- end row -->
+				</div> <!-- dropdown-mega-menu.// -->
+			</li>
 
 
-              </div><!-- end row -->
-            </div> <!-- dropdown-mega-menu.// -->
-
-          </li>
 
 
-          <!-- Government Registration End -->
+			<!-- Tax Filling  -->
 
 
-          <!-- Tax Filling  -->
+				<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Income Tax</a>
+				<div class="dropdown-menu megamenu" role="menu">
+
+				<div class="row g-3">
+						<div class="col-lg-6 col-6">
+							<div class="col-megamenu">
+							<h6 class="title"><strong>ITR Filling</strong></h6>
+								<ul class="list-unstyled">
+								<li><a class="dropdown-item" href="income-tax-return-filing.php">ITR-1</a></li>
+									<li><a class="dropdown-item" href="income-tax-return-filing.php">ITR-2</a></li>
+									<li><a class="dropdown-item" href="income-tax-return-filing.php">ITR-3</a></li>
+									<li><a class="dropdown-item" href="income-tax-return-filing.php">ITR-4</a></li>
+									<li><a class="dropdown-item" href="income-tax-return-filing.php">ITR-5</a></li>
+									<li><a class="dropdown-item" href="income-tax-return-filing.php">ITR-6</a></li>
+									<li><a class="dropdown-item" href="income-tax-return-filing.php">ITR-7</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
 
 
-          <li class="nav-item dropdown has-megamenu">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">TAX Filling</a>
-            <div class="dropdown-menu megamenu" role="menu">
-              <div class="row g-3">
-                <div class="col-lg-12 col-6">
-                  <div class="col-megamenu">
+							<div class="col-lg-6 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><a class="dropdown-item" href="tds-return-filing-online-india.php"><strong>TDS Return Filling</strong></a></h6>
 
-                    <ul class="list-unstyled">
-                      <li><a class="dropdown-item" href="online-gst-return-filing.php">GST Return Filling</a></li>
-                      <li><a class="dropdown-item" href="income-tax-return-filing.php">ITR Filling</a></li>
-                      <li><a class="dropdown-item" href="e-way-bill-registration-under-gst.php">e-Way Bill</a></li>
-                      <li><a class="dropdown-item" href="#">TDS Return Filling</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
 
 
-              </div><!-- end row -->
-            </div> <!-- dropdown-mega-menu.// -->
-          </li>
+					</div><!-- end row -->
 
-          <!-- Tax Filling End -->
+				</div> <!-- dropdown-mega-menu.// -->
+			</li>
 
-          <!-- Legal drafting Start -->
+			<!-- Tax Filling End -->
 
-          <li class="nav-item dropdown has-megamenu">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Legal Drafting</a>
-            <div class="dropdown-menu megamenu" role="menu">
-              <div class="row g-3">
-                <div class="col-lg-12 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Corporate</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Adding a Director Resolution</a></li>
-                      <li><a href="#">Resignation of Director resolution</a></li>
-                      <li><a href="#">No Objection Certificate (for address proof)</a></li>
-                      <li><a href="#">Pvt Ltd Company to LLP resolution</a></li>
-                      <li><a href="#">Shareholders Agreement</a></li>
-                      <li><a href="#">Term Sheet</a></li>
-                      <li><a href="#">Non-Disclosure Agreement</a></li>
-                      <li><a href="#">Private Limited Company to Public Limited Company resolution </a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
+			<!-- Goods & Service Tax  -->
 
 
-              </div><!-- end row -->
-            </div> <!-- dropdown-mega-menu.// -->
+				<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Goods &amp; Service Tax</a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-12 col-6">
+							<div class="col-megamenu">
 
-          </li><!-- Legal Drafting End -->
+								<ul class="list-unstyled">
+								     <li><a class="dropdown-item" href="online-gst-return-filing.php">GST Return Filling</a></li>
+									 <li><a class="dropdown-item" href="gst-registration-india.php">GST Registration</a></li>
+									   <li><a class="dropdown-item" href="#">LUT under GST</a></li>
+									  <li><a class="dropdown-item" href="e-way-bill-registration-under-gst.php">e-Way Bill</a></li>
 
-
-          <!-- Menu Accounting & Compliance Start -->
-
-          <li class="nav-item dropdown has-megamenu">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Accounting & Compliance</a>
-            <div class="dropdown-menu megamenu" role="menu">
-              <div class="row g-3">
-                <div class="col-lg-4 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Corporate Compliance</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Annual Compliances for Private Limited Company</a></li>
-                      <li><a href="#">Annual Filing for Limited Liability Partnership</a></li>
-                      <li><a href="#">File DIR-3 KYC</a></li>
-                      <li><a href="#">File INC-20A</a></li>
-                      <li><a href="#">File INC-22A</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
-                <div class="col-lg-4 col-6">
-                  <div class="col-megamenu">
-                    <h6 class="title"><strong>Accounting</strong></h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Accounting and Bookkeeping</a></li>
-                    </ul>
-                  </div>  <!-- col-megamenu.// -->
-                </div><!-- end col-3 -->
-
-              </div><!-- end row -->
-            </div> <!-- dropdown-mega-menu.// -->
-
-          </li><!-- Accounting & compliance End -->
-
-        </ul>
-
-      </div> <!-- navbar-collapse.// -->
-    </div>
-  </nav>
-</div>
+									   <li><a class="dropdown-item" href="#">GST Annual Filing</a></li>
+									   <li><a class="dropdown-item" href="#"> GST Invoicing</a></li>
+									  <li><a class="dropdown-item" href="#">Cancellation of GST</a></li>
 
 
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+					</div><!-- end row -->
+				</div> <!-- dropdown-mega-menu.// -->
+			</li>
+
+			<!-- Goods & Service Tax -->
+
+
+
+
+
+			<!-- Government Registration -->
+
+
+				<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Registation &amp; Licences</a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-12 col-6">
+							<div class="col-megamenu">
+
+								<ul class="list-unstyled">
+								  <li><a class="dropdown-item" href="#">Digital Signature </a></li>
+								  <li><a class="dropdown-item" href="#">PF Registration </a></li>
+								  <li><a class="dropdown-item" href="import-export-code-iec-registration.php">Import Export Code Registration </a></li>
+								  <li><a class="dropdown-item" href="startup-india-registration.php">Startup India Registration</a></li>
+
+								  <li><a class="dropdown-item" href="#">SSI - MSME Registration</a></li>
+								  <li><a class="dropdown-item" href="#">Shop &amp; Establishment Registration</a></li>
+								  <li><a class="dropdown-item" href="#">Professional Tax Registration</a></li>
+								   <li><a class="dropdown-item" href="#">PAN Application</a></li>
+								  <li><a class="dropdown-item" href="#">TAN Application</a></li>
+								  <li><a class="dropdown-item" href="#">FSSAI Registration</a></li>
+								  <li><a class="dropdown-item" href="#">ESI Registration</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+					</div><!-- end row -->
+				</div> <!-- dropdown-mega-menu.// -->
+
+			</li>
+
+
+			<!-- Government Registration End -->
+
+
+
+
+				<!-- Legal drafting Start -->
+
+			<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Legal Drafting</a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Corporate</strong></h6>
+								<ul class="list-unstyled">
+									 <li><a href="#">Adding a Director Resolution</a></li>
+									  <li><a href="#">Resignation of Director resolution</a></li>
+									  <li><a href="#">No Objection Certificate (for address proof)</a></li>
+									  <li><a href="#">Pvt Ltd Company to LLP resolution</a></li>
+									  <li><a href="#">Shareholders Agreement</a></li>
+									  <li><a href="#">Term Sheet</a></li>
+									  <li><a href="#">Non-Disclosure Agreement</a></li>
+									  <li><a href="#">Private Limited Company to Public Limited Company resolution </a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Employment</strong></h6>
+								<ul class="list-unstyled">
+
+											<li><a href="">Appointment Letter</a></li>
+											<li><a href="">Completion of Probation Letter</a></li>
+											<li><a href="">Employee Termination Notice</a></li>
+											<li><a href="">Employment Contract</a></li>
+											<li><a href="">Employment Agreement</a></li>
+											<li><a href="">Job Offer Rejection Letter</a></li>
+											<li><a href="">NDA for Employees</a></li>
+											<li><a href="">Offer Letter</a></li>
+											<li><a href="">Resignation Letter</a></li>
+											<li><a href="">Employee Relieving Letter</a></li>
+											<li><a href="">Consumer Complaint Letter</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Daily Business</strong></h6>
+								<ul class="list-unstyled">
+
+										<li><a href="">Bill of Sale</a></li>
+										<li><a href="">Direct Selling Agreement</a></li>
+										<li><a href="">Estimate Sample</a></li>
+										<li><a href="">Final Invoice</a></li>
+										<li><a href="">Purchase Order</a></li>
+										<li><a href="">Statement of Work</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong> Legal Agreements</strong></h6>
+								<ul class="list-unstyled">
+
+										<li><a href="">Legal Notice</a></li>
+										<li><a href="">Power of Attorney</a></li>
+										<li><a href="">Right to Information</a></li>
+										<li><a href="">Service Level Agreement</a></li>
+										<li><a href="">Termination of Agreement</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+					</div><!-- end row -->
+
+						<div class="row g-3">
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Banking &amp; Finance</strong></h6>
+								<ul class="list-unstyled">
+
+										<li><a href="">Account Opening Resolution</a></li>
+										<li><a href="">Cheque Stop Payment Letter</a></li>
+										<li><a href="">Promisory note</a></li>
+										<li><a href="">Section 138 (Cheque Dishonor Notice)</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Business Agreements</strong></h6>
+								<ul class="list-unstyled">
+
+										<li><a href="">Extension of Agreement</a></li>
+										<li><a href="">Independent Contractor Agreement</a></li>
+										<li><a href="">Memorandum of Understanding</a></li>
+										<li><a href="">NDA for Third Party</a></li>
+										<li><a href="">Website Disclaimer Policy</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Real Estate</strong></h6>
+								<ul class="list-unstyled">
+
+									<li><a href="">Lease Deed – Residential</a></li>
+									<li><a href="">Lease Deed – Commercial</a></li>
+									<li><a href="">Notice to vacate Tenant</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong> Document Kits</strong></h6>
+								<ul class="list-unstyled">
+
+             <li><a href="">Essential Business Agreements Kit</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+					</div><!-- end row -->
+				</div> <!-- dropdown-mega-menu.// -->
+
+			</li><!-- Legal Drafting End -->
+
+			<!-- Menu Intelectual Property Start -->
+
+			<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Tradmark/IP</a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-4 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Trademark</strong></h6>
+								<ul class="list-unstyled">
+									<li><a href="trademark-registration.php">Trademark Registration</a></li>
+                                    <li><a href="trademark-objection-reply.php">Trademark Objection Reply </a></li>
+									 <li><a href="trademark-opposition-india.php">Trademark Opposition</a></li>
+									 <li><a href="trademark-assignment.php">Trademark Assignment</a></li>
+								     <li><a href="trademark-renewal-online.php">Trademark Renewal</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-4 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Patent</strong></h6>
+								<ul class="list-unstyled">
+								  <li><a href="online-patent-search-in-india.php">Patent Search</a></li>
+								  <li><a href="filing-a-provisional-patent.php">Provisional Patent</a></li>
+								  <li><a href="file-permanent-patent-online.php">Permanent Patent</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-4 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Copyright</strong></h6>
+								<ul class="list-unstyled">
+								  <li><a href="copyright-registration-in-india.php">Copyright Registration</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div>
+
+					</div><!-- end row -->
+				</div> <!-- dropdown-mega-menu.// -->
+
+			</li><!-- Menu Intelectual Property End -->
+
+
+
+				<!-- Menu Accounting & Compliance Start -->
+
+			<li class="nav-item dropdown has-megamenu">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Compliance</a>
+				<div class="dropdown-menu megamenu" role="menu">
+					<div class="row g-3">
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Corporate Compliance</strong></h6>
+								<ul class="list-unstyled">
+									  <li><a href="#">Annual Compliances for Private Limited Company</a></li>
+									  <li><a href="#">Annual Filing for Limited Liability Partnership</a></li>
+									  <li><a href="#">File DIR-3 KYC</a></li>
+									  <li><a href="#">File INC-20A</a></li>
+									  <li><a href="#">File INC-22A</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+
+								<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Update Corporate Information</strong></h6>
+								<ul class="list-unstyled">
+								  <li><a href="#">Add or Remove a Director (Company)</a></li>
+								  <li><a href="#">Add or Remove a Partner (LLP)</a></li>
+								  <li><a href="#">Change Business Activity</a></li>
+
+								  <li><a href="#">Change Registered Office</a></li>
+								  <li><a href="#">Change Company Name</a></li>
+								  <li><a href="#">Change LLP Agreement</a></li>
+								  <li><a href="#">Change Partnership Deed</a></li>
+								  <li><a href="#">Increase Authorised Share Capital</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+						<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Close a Business</strong></h6>
+								<ul class="list-unstyled">
+								  <li><a href="#">Close a Private Limited Company</a></li>
+								  <li><a href="#">Close a Limited Liability Partnership</a></li>
+								  <li><a href="#">Close a One Person Company</a></li>
+								  <li><a href="#">Dissolve a Partnership Firm</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div>
+
+
+							<div class="col-lg-3 col-6">
+							<div class="col-megamenu">
+								<h6 class="title"><strong>Accounting</strong></h6>
+								<ul class="list-unstyled">
+								   <li><a href="#">Accounting and Bookkeeping</a></li>
+								</ul>
+							</div>  <!-- col-megamenu.// -->
+						</div><!-- end col-3 -->
+
+
+					</div><!-- end row -->
+				</div> <!-- dropdown-mega-menu.// -->
+
+			</li><!-- Accounting & compliance End -->
+
+		</ul>
+
+	</div> <!-- navbar-collapse.// -->
+</div> <!-- container-fluid.// -->
+</nav>
+<!-- ============= COMPONENT END// ============== -->
+
+
+
+	</div>

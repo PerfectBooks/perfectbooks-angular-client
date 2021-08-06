@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Header} from '../../../constants/limited-liability-partnership.constant';
+import {Header} from '../../../../constants/limited-liability-partnership.constant';
 @Component({
   selector: 'app-limited-liability-partnership',
   templateUrl: './limited-liability-partnership.component.html',
