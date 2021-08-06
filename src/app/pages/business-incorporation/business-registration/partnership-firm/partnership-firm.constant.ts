@@ -1,7 +1,7 @@
 export const Header = {
-                        "title": "Limited Liability Partnership",
-                        "shortTitle": "LLP",
-                        "descriptionTitle": "Private Limited Company in India",
-                        "description": "desc----wydeuwbdjksnvckjnskdjvnkjsnkvjnkjsdnjkcju",
-                        "price": "5609"
+                        "title": "Partnership Firm Registration",
+                        "shortTitle": "PFR",
+                        "descriptionTitle": "Partnership Firm Registration",
+                        "description": "Take a leap of faith with your trusted ones!",
+                        "price": "3499"
                       };

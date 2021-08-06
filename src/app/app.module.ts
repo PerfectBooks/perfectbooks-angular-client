@@ -26,6 +26,7 @@ import { PartnershipToPrivateLimitedCompanyComponent } from './pages/business-in
 import { OnePersonCompanyToPrivateLimitedCompanyComponent } from './pages/business-incorporation/business-conversion/one-person-company-to-private-limited-company/one-person-company-to-private-limited-company.component';
 import { PrivateLimitedCompanyToLimitedLiablityPartnershipComponent } from './pages/business-incorporation/business-conversion/private-limited-company-to-limited-liablity-partnership/private-limited-company-to-limited-liablity-partnership.component';
 import { PrivateCompanyToPublicCompanyComponent } from './pages/business-incorporation/business-conversion/private-company-to-public-company/private-company-to-public-company.component';
+import { ItrOneComponent } from './pages/income-tax/itr-filing/itr-one/itr-one.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { PrivateCompanyToPublicCompanyComponent } from './pages/business-incorpo
     OnePersonCompanyToPrivateLimitedCompanyComponent,
     PrivateLimitedCompanyToLimitedLiablityPartnershipComponent,
     PrivateCompanyToPublicCompanyComponent,
+    ItrOneComponent,
   ],
   imports: [
     BrowserModule,

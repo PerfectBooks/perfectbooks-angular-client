@@ -1,7 +1,7 @@
 export const Header = {
-                        "title": "Private Limited Company Registration",
-                        "shortTitle": "PLC",
-                        "descriptionTitle": "Private Limited Company in India",
-                        "description": "desc----wydeuwbdjksnvckjnskdjvnkjsnkvjnkjsdnjkcju",
-                        "price": "567"
+                        "title": "Producer Company Registration",
+                        "shortTitle": "PCR",
+                        "descriptionTitle": "Producer Company Registration",
+                        "description": "Establish a business in India as most popular organisation structure",
+                        "price": "24999"
                       };

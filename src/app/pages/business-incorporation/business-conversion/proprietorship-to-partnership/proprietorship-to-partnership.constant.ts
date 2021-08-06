@@ -1,7 +1,7 @@
 export const Header = {
-                        "title": "Limited Liability Partnership",
-                        "shortTitle": "LLP",
-                        "descriptionTitle": "Private Limited Company in India",
-                        "description": "desc----wydeuwbdjksnvckjnskdjvnkjsnkvjnkjsdnjkcju",
-                        "price": "5609"
+                        "title": "Convert Proprietorship to Partnership",
+                        "shortTitle": "CPTP",
+                        "descriptionTitle": "Convert Proprietorship to Partnership",
+                        "description": "Transform business to Partnership firm and enjoy extended benefits.",
+                        "price": "6499"
                       };

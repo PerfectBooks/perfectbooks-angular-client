@@ -1,7 +1,7 @@
 export const Header = {
-                        "title": "Limited Liability Partnership",
-                        "shortTitle": "LLP",
-                        "descriptionTitle": "Private Limited Company in India",
-                        "description": "desc----wydeuwbdjksnvckjnskdjvnkjsnkvjnkjsdnjkcju",
-                        "price": "5609"
+                        "title": "One Person Company Registration",
+                        "shortTitle": "OPCR",
+                        "descriptionTitle": "One Person Company Registration",
+                        "description": "The first move towards building an empire!",
+                        "price": "6999"
                       };
