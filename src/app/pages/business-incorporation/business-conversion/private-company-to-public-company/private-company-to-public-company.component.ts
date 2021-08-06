@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from './private-company-to-public-company.constant';
 
 @Component({
   selector: 'app-private-company-to-public-company',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrivateCompanyToPublicCompanyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+     constructor() {
+     }
 
-  ngOnInit(): void {
-  }
+   ngOnInit(): void {
+     this.serviceHeader = Header;
+   }
 
 }

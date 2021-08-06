@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Header} from './private-limited-company-to-limited-liablity-partnership.constant';
 
 @Component({
   selector: 'app-private-limited-company-to-limited-liablity-partnership',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrivateLimitedCompanyToLimitedLiablityPartnershipComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+     constructor() {
+     }
 
-  ngOnInit(): void {
-  }
+   ngOnInit(): void {
+     this.serviceHeader = Header;
+   }
 
 }

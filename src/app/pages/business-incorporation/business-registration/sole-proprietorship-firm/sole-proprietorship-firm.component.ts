@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from './sole-proprietorship-firm.constant';
 
 @Component({
   selector: 'app-sole-proprietorship-firm',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SoleProprietorshipFirmComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

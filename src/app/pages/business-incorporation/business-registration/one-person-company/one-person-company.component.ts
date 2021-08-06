@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from './one-person-company.constant';
 @Component({
   selector: 'app-one-person-company',
   templateUrl: './one-person-company.component.html',
@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OnePersonCompanyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
-
 }

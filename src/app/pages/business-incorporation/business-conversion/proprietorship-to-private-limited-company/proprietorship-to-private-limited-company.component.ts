@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./proprietorship-to-private-limited-company.constant";
 @Component({
   selector: 'app-proprietorship-to-private-limited-company',
   templateUrl: './proprietorship-to-private-limited-company.component.html',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProprietorshipToPrivateLimitedCompanyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

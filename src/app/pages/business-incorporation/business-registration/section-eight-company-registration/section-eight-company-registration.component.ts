@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from './section-eight-company-registration.constant';
 
 @Component({
   selector: 'app-section-eight-company-registration',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionEightCompanyRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
-
 }

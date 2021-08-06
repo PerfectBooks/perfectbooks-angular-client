@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from './nidhi-company.constant';
 
 @Component({
   selector: 'app-nidhi-company',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NidhiCompanyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
-
 }
