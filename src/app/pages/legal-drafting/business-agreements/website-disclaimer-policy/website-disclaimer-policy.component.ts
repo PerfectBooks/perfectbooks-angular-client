@@ -8,9 +8,12 @@ import { Header } from "./website-disclaimer-policy.constant";
 })
 export class WebsiteDisclaimerPolicyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

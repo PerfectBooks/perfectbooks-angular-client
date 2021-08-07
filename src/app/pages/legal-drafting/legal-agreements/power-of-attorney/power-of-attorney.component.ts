@@ -7,9 +7,12 @@ import { Header } from "./power-of-attorney.constant";
 })
 export class PowerOfAttorneyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

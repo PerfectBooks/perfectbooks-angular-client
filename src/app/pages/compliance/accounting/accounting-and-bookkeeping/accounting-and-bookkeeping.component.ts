@@ -8,9 +8,13 @@ import { Header } from "./accounting-and-bookkeeping.constant";
 })
 export class AccountingAndBookkeepingComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
+
 
 }

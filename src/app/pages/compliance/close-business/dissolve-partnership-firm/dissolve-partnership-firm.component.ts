@@ -7,9 +7,12 @@ import { Header } from "./dissolve-partnership-firm.constant";
 })
 export class DissolvePartnershipFirmComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

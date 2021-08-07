@@ -7,9 +7,12 @@ import { Header } from "./annual-filing-limited-liablity-partnership.constant";
 })
 export class AnnualFilingLimitedLiablityPartnershipComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

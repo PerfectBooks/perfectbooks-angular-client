@@ -1,5 +1,5 @@
 export const Header = {
-                        "title": "",
+                        "title": "Trademark Registration",
                         "shortTitle": "",
                         "descriptionTitle": "",
                         "description": "",

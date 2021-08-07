@@ -8,9 +8,12 @@ import { Header } from "./adding-director-resolution.constant";
 })
 export class AddingDirectorResolutionComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

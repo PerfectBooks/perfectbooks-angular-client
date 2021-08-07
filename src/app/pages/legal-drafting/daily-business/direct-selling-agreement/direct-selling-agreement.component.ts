@@ -8,9 +8,12 @@ import { Header } from "./direct-selling-agreement.constant";
 })
 export class DirectSellingAgreementComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  serviceHeader : any;
+  constructor() {
   }
+
+ngOnInit(): void {
+  this.serviceHeader = Header;
+}
 
 }

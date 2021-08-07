@@ -7,9 +7,12 @@ import { Header } from "./cheque-payment-stop-letter.constant";
 })
 export class ChequePaymentStopLetterComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

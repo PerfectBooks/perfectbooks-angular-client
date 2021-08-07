@@ -7,9 +7,12 @@ import { Header } from "./lut-under-registration.constant";
 })
 export class LutUnderRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

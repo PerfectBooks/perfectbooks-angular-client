@@ -7,9 +7,11 @@ import { Header } from "./patent-search.constant";
 })
 export class PatentSearchComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  serviceHeader : any;
+  constructor() {
   }
 
+ngOnInit(): void {
+  this.serviceHeader = Header;
+}
 }

@@ -7,9 +7,13 @@ import { Header } from "./close-private-limited-company.constant";
 })
 export class ClosePrivateLimitedCompanyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
+
 
 }

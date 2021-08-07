@@ -7,9 +7,11 @@ import { Header } from "./tan-application.constant";
 })
 export class TanApplicationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
-
 }

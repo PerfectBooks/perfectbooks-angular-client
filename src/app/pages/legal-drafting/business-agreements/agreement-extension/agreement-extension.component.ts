@@ -8,9 +8,12 @@ import { Header } from "./agreement-extension.constant";
 })
 export class AgreementExtensionComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

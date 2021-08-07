@@ -8,9 +8,12 @@ import { Header } from "./independent-contractor-agreement.constant";
 })
 export class IndependentContractorAgreementComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

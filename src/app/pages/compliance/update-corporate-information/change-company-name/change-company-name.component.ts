@@ -7,9 +7,12 @@ import { Header } from "./change-company-name.constant";
 })
 export class ChangeCompanyNameComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {  } from "./share-holder-agreement.constant";
+import { Header } from "./share-holder-agreement.constant";
 
 @Component({
   selector: 'app-share-holder-agreement',
@@ -8,9 +8,12 @@ import {  } from "./share-holder-agreement.constant";
 })
 export class ShareHolderAgreementComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

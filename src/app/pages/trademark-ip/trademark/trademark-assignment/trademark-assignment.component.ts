@@ -7,9 +7,12 @@ import { Header } from "./trademark-assignment.constant";
 })
 export class TrademarkAssignmentComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

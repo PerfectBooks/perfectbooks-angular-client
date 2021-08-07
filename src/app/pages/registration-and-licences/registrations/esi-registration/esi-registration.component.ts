@@ -7,9 +7,12 @@ import { Header } from "./esi-registration.constant";
 })
 export class EsiRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

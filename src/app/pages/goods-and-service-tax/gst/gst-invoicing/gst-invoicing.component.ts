@@ -7,9 +7,12 @@ import { Header } from "./gst-invoicing.constant";
 })
 export class GstInvoicingComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

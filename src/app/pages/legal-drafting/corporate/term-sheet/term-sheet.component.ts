@@ -8,9 +8,12 @@ import { Header } from "./term-sheet.constant";
 })
 export class TermSheetComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  serviceHeader : any;
+  constructor() {
   }
+
+ngOnInit(): void {
+  this.serviceHeader = Header;
+}
 
 }

@@ -8,9 +8,12 @@ import { Header } from "./bill-of-sale.constant";
 })
 export class BillOfSaleComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

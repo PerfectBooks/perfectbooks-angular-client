@@ -7,9 +7,12 @@ import { Header } from "./digital-signature.constant";
 })
 export class DigitalSignatureComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

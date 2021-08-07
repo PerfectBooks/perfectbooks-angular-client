@@ -7,9 +7,12 @@ import { Header } from "./offer-letter.constant";
 })
 export class OfferLetterComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

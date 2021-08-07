@@ -7,9 +7,12 @@ import { Header } from "./change-partnership-deed.constant";
 })
 export class ChangePartnershipDeedComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

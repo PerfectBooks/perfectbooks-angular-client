@@ -8,9 +8,12 @@ import { Header } from "./essential-business-agreement-kit.constant";
 })
 export class EssentialBusinessAgreementKitComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

@@ -7,9 +7,12 @@ import { Header } from "./import-export-code-registration.constant";
 })
 export class ImportExportCodeRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

@@ -7,9 +7,12 @@ import { Header } from "./file-dir-three-kyc.constant";
 })
 export class FileDirThreeKycComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

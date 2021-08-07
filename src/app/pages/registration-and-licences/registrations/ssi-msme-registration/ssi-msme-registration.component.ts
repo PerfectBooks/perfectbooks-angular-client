@@ -7,9 +7,12 @@ import { Header } from "./ssi-msme-registration.constant";
 })
 export class SsiMsmeRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

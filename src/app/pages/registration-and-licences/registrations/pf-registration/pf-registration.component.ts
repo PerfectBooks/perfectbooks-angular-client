@@ -7,9 +7,12 @@ import { Header } from "./pf-registration.constant";
 })
 export class PfRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

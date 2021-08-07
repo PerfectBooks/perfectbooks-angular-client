@@ -8,9 +8,12 @@ import { Header } from "./resignation-director-resolution.constant";
 })
 export class ResignationDirectorResolutionComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

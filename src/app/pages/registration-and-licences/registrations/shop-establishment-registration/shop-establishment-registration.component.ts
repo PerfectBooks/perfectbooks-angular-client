@@ -7,9 +7,12 @@ import { Header } from "./shop-establishment-registration.constant";
 })
 export class ShopEstablishmentRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

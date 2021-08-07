@@ -7,9 +7,11 @@ import { Header } from "./trademark-registration.constant";
 })
 export class TrademarkRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
-
 }

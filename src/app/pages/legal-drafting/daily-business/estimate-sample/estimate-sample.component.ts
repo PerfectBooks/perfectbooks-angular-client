@@ -8,9 +8,12 @@ import { Header } from "./estimate-sample.constant";
 })
 export class EstimateSampleComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

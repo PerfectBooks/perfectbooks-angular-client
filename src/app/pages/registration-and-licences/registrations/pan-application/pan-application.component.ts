@@ -7,9 +7,12 @@ import { Header } from "./pan-application.constant";
 })
 export class PanApplicationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

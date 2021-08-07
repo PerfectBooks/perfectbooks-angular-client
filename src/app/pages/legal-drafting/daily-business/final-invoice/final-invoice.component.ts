@@ -8,9 +8,12 @@ import { Header } from "./final-invoice.constant";
 })
 export class FinalInvoiceComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

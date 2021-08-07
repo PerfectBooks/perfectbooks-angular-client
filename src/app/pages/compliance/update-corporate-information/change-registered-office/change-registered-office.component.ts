@@ -7,9 +7,12 @@ import { Header } from "./change-registered-office.constant";
 })
 export class ChangeRegisteredOfficeComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

@@ -6,10 +6,12 @@ import { Header } from "./provisional-patent.constant";
   styleUrls: ['./provisional-patent.component.css']
 })
 export class ProvisionalPatentComponent implements OnInit {
-
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

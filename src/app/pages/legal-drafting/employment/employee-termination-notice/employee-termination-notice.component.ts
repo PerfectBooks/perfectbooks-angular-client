@@ -7,9 +7,12 @@ import { Header } from "./employee-termination-notice.constant";
 })
 export class EmployeeTerminationNoticeComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

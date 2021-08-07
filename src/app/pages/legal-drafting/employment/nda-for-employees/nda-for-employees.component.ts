@@ -7,9 +7,12 @@ import { Header } from "./nda-for-employees.constant";
 })
 export class NdaForEmployeesComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

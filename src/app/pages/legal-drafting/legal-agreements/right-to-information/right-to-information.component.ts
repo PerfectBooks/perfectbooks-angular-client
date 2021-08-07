@@ -7,9 +7,12 @@ import { Header } from "./right-to-information.constant";
 })
 export class RightToInformationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

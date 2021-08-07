@@ -7,9 +7,13 @@ import { Header } from "./trademark-objection-reply.constant";
 })
 export class TrademarkObjectionReplyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
+
 
 }

@@ -8,9 +8,12 @@ import { Header} from './account-opening-resolution.constant';
 })
 export class AccountOpeningResolutionComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

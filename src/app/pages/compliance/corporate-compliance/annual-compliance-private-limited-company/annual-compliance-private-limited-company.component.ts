@@ -7,9 +7,12 @@ import { Header } from "./annual-compliance-private-limited-company.constant";
 })
 export class AnnualCompliancePrivateLimitedCompanyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

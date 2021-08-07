@@ -7,9 +7,12 @@ import { Header } from "./gst-return-filing.constant";
 })
 export class GstReturnFilingComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

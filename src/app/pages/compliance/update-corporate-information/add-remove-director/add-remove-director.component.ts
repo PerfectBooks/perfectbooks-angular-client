@@ -8,9 +8,12 @@ import { Header } from "./add-remove-director.constant";
 })
 export class AddRemoveDirectorComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

@@ -7,9 +7,12 @@ import { Header } from "./employee-contract.constant";
 })
 export class EmployeeContractComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

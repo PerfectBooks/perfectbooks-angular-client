@@ -7,9 +7,12 @@ import { Header } from "./increase-authorised-share-capital.constant";
 })
 export class IncreaseAuthorisedShareCapitalComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

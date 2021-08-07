@@ -7,9 +7,12 @@ import { Header } from "./notice-to-vacate-tenant.constant";
 })
 export class NoticeToVacateTenantComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

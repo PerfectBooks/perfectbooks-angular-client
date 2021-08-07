@@ -7,9 +7,12 @@ import { Header } from "./job-offer-rejection-letter.constant";
 })
 export class JobOfferRejectionLetterComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

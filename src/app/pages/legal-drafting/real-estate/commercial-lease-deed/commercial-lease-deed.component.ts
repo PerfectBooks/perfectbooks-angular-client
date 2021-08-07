@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {  } from "./commercial-lease-deed.constant";
+import { Header } from "./commercial-lease-deed.constant";
 @Component({
   selector: 'app-commercial-lease-deed',
   templateUrl: './commercial-lease-deed.component.html',
@@ -7,9 +7,12 @@ import {  } from "./commercial-lease-deed.constant";
 })
 export class CommercialLeaseDeedComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

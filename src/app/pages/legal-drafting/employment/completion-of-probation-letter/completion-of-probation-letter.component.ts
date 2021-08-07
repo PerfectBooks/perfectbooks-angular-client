@@ -7,9 +7,12 @@ import { Header } from "./completion-of-probation-letter.constant";
 })
 export class CompletionOfProbationLetterComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

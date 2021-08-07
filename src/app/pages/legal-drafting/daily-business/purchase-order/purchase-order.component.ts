@@ -8,9 +8,12 @@ import { Header } from "./purchase-order.constant";
 })
 export class PurchaseOrderComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

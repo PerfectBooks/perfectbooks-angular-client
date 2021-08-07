@@ -7,9 +7,12 @@ import { Header } from "./legal-notice.constant";
 })
 export class LegalNoticeComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

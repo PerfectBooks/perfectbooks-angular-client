@@ -8,9 +8,12 @@ import { Header } from "./private-limited-company-to-public-limited-company-reso
 })
 export class PrivateLimitedCompanyToPublicLimitedCompanyResolutionComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

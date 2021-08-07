@@ -8,9 +8,12 @@ import { Header } from "./memorandum-of-understanding.constant";
 })
 export class MemorandumOfUnderstandingComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

@@ -7,9 +7,12 @@ import { Header } from "./change-limited-liablity-partnership-agreement.constant
 })
 export class ChangeLimitedLiablityPartnershipAgreementComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

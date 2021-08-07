@@ -8,9 +8,12 @@ import { Header } from "./close-one-person-company.constant";
 })
 export class CloseOnePersonCompanyComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

@@ -7,9 +7,12 @@ import { Header } from "./professional-tax-registration.constant";
 })
 export class ProfessionalTaxRegistrationComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

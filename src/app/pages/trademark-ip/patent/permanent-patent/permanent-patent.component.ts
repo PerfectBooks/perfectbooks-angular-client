@@ -8,9 +8,12 @@ import { Header } from "./permanent-patent.constant";
 })
 export class PermanentPatentComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

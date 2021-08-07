@@ -7,9 +7,12 @@ import { Header } from "./cheque-dishonor-notice-section-one-three-eight.constan
 })
 export class ChequeDishonorNoticeSectionOneThreeEightComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

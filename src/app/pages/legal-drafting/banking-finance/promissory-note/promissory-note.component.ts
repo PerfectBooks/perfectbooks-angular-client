@@ -8,9 +8,12 @@ import { Header } from "./promissory-note.constant";
 })
 export class PromissoryNoteComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

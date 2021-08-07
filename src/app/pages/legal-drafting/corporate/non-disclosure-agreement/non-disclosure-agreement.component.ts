@@ -7,9 +7,12 @@ import { Header } from "./non-disclosure-agreement.constant";
 })
 export class NonDisclosureAgreementComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

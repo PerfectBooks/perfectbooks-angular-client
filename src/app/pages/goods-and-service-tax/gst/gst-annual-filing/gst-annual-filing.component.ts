@@ -7,9 +7,12 @@ import { Header } from "./gst-annual-filing.constant";
 })
 export class GstAnnualFilingComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

@@ -7,9 +7,12 @@ import { Header } from "./cancellation-of-gst.constant";
 })
 export class CancellationOfGstComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
 
 }

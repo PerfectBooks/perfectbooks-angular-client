@@ -8,9 +8,13 @@ import { Header } from "./close-limit-liablity-partnership.constant";
 })
 export class CloseLimitLiablityPartnershipComponent implements OnInit {
 
-  constructor() { }
+  serviceHeader : any;
+    constructor() {
+    }
 
   ngOnInit(): void {
+    this.serviceHeader = Header;
   }
+
 
 }
