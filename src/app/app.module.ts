@@ -115,6 +115,20 @@ import { EWayBillComponent } from './pages/goods-and-service-tax/gst/e-way-bill/
 import { GstAnnualFilingComponent } from './pages/goods-and-service-tax/gst/gst-annual-filing/gst-annual-filing.component';
 import { GstInvoicingComponent } from './pages/goods-and-service-tax/gst/gst-invoicing/gst-invoicing.component';
 import { CancellationOfGstComponent } from './pages/goods-and-service-tax/gst/cancellation-of-gst/cancellation-of-gst.component';
+import { BusinessIncorporationNavbarComponent } from './header/navbar/business-incorporation-navbar/business-incorporation-navbar.component';
+import { BusinessIncorporationMegamenuComponent } from './header/navbar/business-incorporation-navbar/business-incorporation-megamenu/business-incorporation-megamenu.component';
+import { ComplianceNavbarComponent } from './header/navbar/compliance-navbar/compliance-navbar.component';
+import { ComplianceMegamenuComponent } from './header/navbar/compliance-navbar/compliance-megamenu/compliance-megamenu.component';
+import { GoodsAndServiceTaxNavbarComponent } from './header/navbar/goods-and-service-tax-navbar/goods-and-service-tax-navbar.component';
+import { GoodsAndServiceTaxMegamenuComponent } from './header/navbar/goods-and-service-tax-navbar/goods-and-service-tax-megamenu/goods-and-service-tax-megamenu.component';
+import { IncomeTaxNavbarComponent } from './header/navbar/income-tax-navbar/income-tax-navbar.component';
+import { IncomeTaxMegamenuComponent } from './header/navbar/income-tax-navbar/income-tax-megamenu/income-tax-megamenu.component';
+import { LegalDraftingNavbarComponent } from './header/navbar/legal-drafting-navbar/legal-drafting-navbar.component';
+import { LegalDraftingMegamenuComponent } from './header/navbar/legal-drafting-navbar/legal-drafting-megamenu/legal-drafting-megamenu.component';
+import { RegistrationAndLicencesNavbarComponent } from './header/navbar/registration-and-licences-navbar/registration-and-licences-navbar.component';
+import { TrademarkIpNavbarComponent } from './header/navbar/trademark-ip-navbar/trademark-ip-navbar.component';
+import { TrademarkIpMegamenuComponent } from './header/navbar/trademark-ip-navbar/trademark-ip-megamenu/trademark-ip-megamenu.component';
+import { RegistrationAndLicencesMegamenuComponent } from './header/navbar/registration-and-licences-navbar/registration-and-licences-megamenu/registration-and-licences-megamenu.component';
 
 @NgModule({
   declarations: [
@@ -231,6 +245,20 @@ import { CancellationOfGstComponent } from './pages/goods-and-service-tax/gst/ca
     GstAnnualFilingComponent,
     GstInvoicingComponent,
     CancellationOfGstComponent,
+    BusinessIncorporationNavbarComponent,
+    BusinessIncorporationMegamenuComponent,
+    ComplianceNavbarComponent,
+    ComplianceMegamenuComponent,
+    GoodsAndServiceTaxNavbarComponent,
+    GoodsAndServiceTaxMegamenuComponent,
+    IncomeTaxNavbarComponent,
+    IncomeTaxMegamenuComponent,
+    LegalDraftingNavbarComponent,
+    LegalDraftingMegamenuComponent,
+    RegistrationAndLicencesNavbarComponent,
+    TrademarkIpNavbarComponent,
+    TrademarkIpMegamenuComponent,
+    RegistrationAndLicencesMegamenuComponent,
   ],
   imports: [
     BrowserModule,
