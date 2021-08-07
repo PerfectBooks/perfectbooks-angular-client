@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./right-to-information.constant";
 @Component({
   selector: 'app-right-to-information',
   templateUrl: './right-to-information.component.html',

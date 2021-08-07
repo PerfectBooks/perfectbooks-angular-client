@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./add-remove-partner.constant";
 
 @Component({
   selector: 'app-add-remove-partner',

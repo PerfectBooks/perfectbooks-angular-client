@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./permanent-patent.constant";
 
 @Component({
   selector: 'app-permanent-patent',

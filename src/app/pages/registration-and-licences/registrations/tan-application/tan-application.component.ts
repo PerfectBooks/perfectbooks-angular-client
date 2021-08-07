@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./tan-application.constant";
 @Component({
   selector: 'app-tan-application',
   templateUrl: './tan-application.component.html',

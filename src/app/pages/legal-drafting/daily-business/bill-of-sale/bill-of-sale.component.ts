@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./bill-of-sale.constant";
 
 @Component({
   selector: 'app-bill-of-sale',

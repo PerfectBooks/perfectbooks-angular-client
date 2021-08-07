@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./residential-lease-deed.constant";
 @Component({
   selector: 'app-residential-lease-deed',
   templateUrl: './residential-lease-deed.component.html',

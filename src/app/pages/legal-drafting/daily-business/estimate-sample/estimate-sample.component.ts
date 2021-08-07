@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./estimate-sample.constant";
 
 @Component({
   selector: 'app-estimate-sample',

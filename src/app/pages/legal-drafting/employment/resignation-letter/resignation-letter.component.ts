@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./resignation-letter.constant";
 @Component({
   selector: 'app-resignation-letter',
   templateUrl: './resignation-letter.component.html',

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./power-of-attorney.constant";
 @Component({
   selector: 'app-power-of-attorney',
   templateUrl: './power-of-attorney.component.html',

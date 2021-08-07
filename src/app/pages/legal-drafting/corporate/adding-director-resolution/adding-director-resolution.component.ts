@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./adding-director-resolution.constant";
 
 @Component({
   selector: 'app-adding-director-resolution',

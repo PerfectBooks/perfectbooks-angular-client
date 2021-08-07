@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./close-limit-liablity-partnership.constant";
 
 @Component({
   selector: 'app-close-limit-liablity-partnership',

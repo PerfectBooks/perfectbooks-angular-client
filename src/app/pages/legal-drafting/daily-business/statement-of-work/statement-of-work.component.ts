@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./statement-of-work.constant";
 
 @Component({
   selector: 'app-statement-of-work',

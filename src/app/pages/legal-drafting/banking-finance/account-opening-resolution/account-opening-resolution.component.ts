@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header} from './account-opening-resolution.constant';
 
 @Component({
   selector: 'app-account-opening-resolution',

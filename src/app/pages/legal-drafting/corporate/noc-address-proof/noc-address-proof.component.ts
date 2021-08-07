@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./noc-address-proof.constant";
 @Component({
   selector: 'app-noc-address-proof',
   templateUrl: './noc-address-proof.component.html',

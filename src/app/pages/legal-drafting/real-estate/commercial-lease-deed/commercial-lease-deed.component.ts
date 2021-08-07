@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {  } from "./commercial-lease-deed.constant";
 @Component({
   selector: 'app-commercial-lease-deed',
   templateUrl: './commercial-lease-deed.component.html',

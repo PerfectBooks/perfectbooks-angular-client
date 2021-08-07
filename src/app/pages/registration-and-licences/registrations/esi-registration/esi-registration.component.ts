@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./esi-registration.constant";
 @Component({
   selector: 'app-esi-registration',
   templateUrl: './esi-registration.component.html',

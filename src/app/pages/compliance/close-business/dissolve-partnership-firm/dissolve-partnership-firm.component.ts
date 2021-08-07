@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./dissolve-partnership-firm.constant";
 @Component({
   selector: 'app-dissolve-partnership-firm',
   templateUrl: './dissolve-partnership-firm.component.html',

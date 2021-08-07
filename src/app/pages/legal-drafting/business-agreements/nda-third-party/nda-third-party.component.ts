@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./nda-third-party.constant";
 
 @Component({
   selector: 'app-nda-third-party',

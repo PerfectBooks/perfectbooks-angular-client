@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./file-inc-twenty-two-a.constant";
 @Component({
   selector: 'app-file-inc-twenty-two-a',
   templateUrl: './file-inc-twenty-two-a.component.html',

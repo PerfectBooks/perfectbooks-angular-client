@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./memorandum-of-understanding.constant";
 
 @Component({
   selector: 'app-memorandum-of-understanding',

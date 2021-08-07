@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./close-private-limited-company.constant";
 @Component({
   selector: 'app-close-private-limited-company',
   templateUrl: './close-private-limited-company.component.html',

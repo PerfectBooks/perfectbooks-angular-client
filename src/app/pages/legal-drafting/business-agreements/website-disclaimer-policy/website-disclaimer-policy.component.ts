@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./website-disclaimer-policy.constant";
 
 @Component({
   selector: 'app-website-disclaimer-policy',

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./pf-registration.constant";
 @Component({
   selector: 'app-pf-registration',
   templateUrl: './pf-registration.component.html',

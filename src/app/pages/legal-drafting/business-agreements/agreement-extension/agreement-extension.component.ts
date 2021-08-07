@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./agreement-extension.constant";
 
 @Component({
   selector: 'app-agreement-extension',

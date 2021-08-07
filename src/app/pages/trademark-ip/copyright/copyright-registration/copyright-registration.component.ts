@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./copyright-registration.constant";
 @Component({
   selector: 'app-copyright-registration',
   templateUrl: './copyright-registration.component.html',

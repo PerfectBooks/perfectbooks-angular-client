@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./private-limited-company-to-limited-liablity-partnership-resolution.constant";
 
 @Component({
   selector: 'app-private-limited-company-to-limited-liablity-partnership-resolution',

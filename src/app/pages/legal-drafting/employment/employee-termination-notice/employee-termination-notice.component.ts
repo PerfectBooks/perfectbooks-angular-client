@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./employee-termination-notice.constant";
 @Component({
   selector: 'app-employee-termination-notice',
   templateUrl: './employee-termination-notice.component.html',

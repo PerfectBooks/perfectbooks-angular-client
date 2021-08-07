@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {  } from "./share-holder-agreement.constant";
 
 @Component({
   selector: 'app-share-holder-agreement',

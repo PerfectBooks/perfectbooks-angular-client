@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./resignation-director-resolution.constant";
 
 @Component({
   selector: 'app-resignation-director-resolution',

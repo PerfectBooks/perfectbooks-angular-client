@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Header } from "./change-business-activity.constant";
 @Component({
   selector: 'app-change-business-activity',
   templateUrl: './change-business-activity.component.html',

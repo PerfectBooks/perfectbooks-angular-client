@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./close-one-person-company.constant";
 
 @Component({
   selector: 'app-close-one-person-company',

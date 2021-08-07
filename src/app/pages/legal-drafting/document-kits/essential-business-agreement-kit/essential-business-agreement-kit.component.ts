@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Header } from "./essential-business-agreement-kit.constant";
 
 @Component({
   selector: 'app-essential-business-agreement-kit',
