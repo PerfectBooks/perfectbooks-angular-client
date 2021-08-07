@@ -169,6 +169,7 @@ const routes: Routes = [
 {path:'account-opening-resolution',component:AccountOpeningResolutionComponent},
 {path:'cheque-payment-stop-letter',component:ChequePaymentStopLetterComponent},
 {path:'promissory-note',component:PromissoryNoteComponent},
+{path:"cheque-dishonor-notice-section-one-three-eight", component: ChequeDishonorNoticeSectionOneThreeEightComponent},
 {path:'legal-notice',component:LegalNoticeComponent},
 {path:'power-of-attorney',component:PowerOfAttorneyComponent},
 {path:'right-to-information',component:RightToInformationComponent},
